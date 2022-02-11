@@ -1,0 +1,89 @@
+*{
+    padding: 0px;margin: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100vh;
+   background-image: url(images/wp2037797.jpg);
+   opacity: 0.9;
+    background-size: cover;
+    background-color:rgba(0,0,0,0.2) ;
+    background-repeat: no-repeat;
+}
+nav{
+    width: 100%;
+    height: 15vh;
+    background: black;
+    color: white;
+    display: flex;
+    background-color:rgba(0,0,0,0.2) ;
+   justify-content: space-between;
+    align-items: center;
+}
+nav .logo{
+width: 25%;
+text-align: center;
+}
+nav .mai{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+nav .mai a{
+    width: 25%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+main{
+    width: 100%;
+    height: 85vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+h3{
+    font-size: 40px;
+    font-weight: 200px;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px black;
+}
+.do{
+    font-size: 86px;
+    font-weight: 700px;
+    text-shadow: 10px 8px 15px black;
+}
+.qw{
+    font-size: 45px;
+    word-spacing: 2px;
+    text-shadow: 15px 15px 15px black;
+    margin-bottom: 25px;   
+}
+.one{
+    background-color:white;
+    color:black;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 120px;
+    height: 40px;
+    outline: none;
+    font-size: 13px;
+    font-weight: 500px;
+    letter-spacing: 1px;
+}
+.two{
+    background-color: #00fdcb;
+    color: white;
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
+    outline: none;
+    font-size: 13px;
+    font-weight: 500px;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
